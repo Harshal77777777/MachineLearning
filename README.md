@@ -47,10 +47,12 @@ We trained two classic supervised models:
 2. **Logistic Regression** — provides better interpretability and confidence scores  
 Both models were trained on TF-IDF vectorized text features.
 
-| Model | Accuracy | Precision | Recall | F1-Score |
-|--------|-----------|------------|---------|-----------|
-| Naive Bayes | 88.7% | 0.89 | 0.87 | 0.88 |
-| Logistic Regression | 91.2% | 0.91 | 0.91 | 0.91 |
+ Model               | Accuracy | Precision | Recall | F1-score |
+|----------------------|-----------|------------|---------|-----------|
+| Naive Bayes          | 0.91734   | 0.924178   | 0.90928 | 0.916668  |
+| Logistic Regression  | 0.93492   | 0.928712   | 0.94216 | 0.935388  |
+
+➡️ The **Logistic Regression** model slightly outperformed Naive Bayes in all metrics and is therefore set as the **default model** in the deployed Streamlit app.
 
 ---
 
@@ -137,3 +139,30 @@ streamlit run app.py
 ├── logistic_regression_model.pkl
 └── vectorizer.pkl
 ```
+## 🏁 Conclusion
+
+- Both **Naive Bayes** and **Logistic Regression** effectively classify text-based reviews.  
+- **Logistic Regression** performs slightly better in accuracy and interpretability.  
+- The **Streamlit interface** provides a simple, interactive way for users to test the models.  
+
+### **Key Takeaways**
+- Text preprocessing and vectorization greatly influence sentiment classification performance.  
+- Classic ML models can achieve strong performance without deep learning for smaller datasets.  
+
+---
+
+## 📚 References
+
+1. Maas, A.L., et al. *"Learning Word Vectors for Sentiment Analysis."* Proceedings of ACL (2011).  
+2. [Scikit-learn Documentation](https://scikit-learn.org/)  
+3. [Streamlit Documentation](https://docs.streamlit.io/)  
+4. [IMDb Review Dataset (Kaggle)](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+
+---
+
+## 👩‍💻 Author
+
+**Your Name**  
+Harshal Meshram
+
+⭐ *Don’t forget to star this repo if you found it helpful!*

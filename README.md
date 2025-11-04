@@ -77,7 +77,7 @@ streamlit run app.py
 
 ## 🗂️ Project Structure
 
-
+```bash
 📁 review-sentiment-classifier/
 │
 ├── app.py
@@ -86,3 +86,4 @@ streamlit run app.py
 ├── naive_bayes_model.pkl
 ├── logistic_regression_model.pkl
 └── vectorizer.pkl
+```

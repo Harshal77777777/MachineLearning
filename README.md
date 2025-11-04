@@ -3,6 +3,8 @@
 
 A simple **Streamlit** web app that classifies user reviews as **Positive 😊** or **Negative ☹️** using pre-trained **Naive Bayes** and **Logistic Regression** models.
 
+🔗 **Live App:** [Click here to try it out!](https://machinelearning-nmurdphbnqjliz6fk2zvc6.streamlit.app/)
+
 ---
 
 ## 🚀 Features

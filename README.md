@@ -1,4 +1,5 @@
-# 💬 Review Sentiment Classifier - Harshal Meshram 22070521171 Sec : B
+# 💬 Review Sentiment Classifier -
+## Harshal Meshram 22070521171 Sec : B
 
 A simple **Streamlit** web app that classifies user reviews as **Positive 😊** or **Negative ☹️** using pre-trained **Naive Bayes** and **Logistic Regression** models.
 

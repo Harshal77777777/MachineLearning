@@ -45,8 +45,13 @@ The dataset used is based on publicly available **IMDb Movie Reviews Dataset** a
 We trained two classic supervised models:
 1. **Naive Bayes (MultinomialNB)** — works well for text classification with word frequency data  
 2. **Logistic Regression** — provides better interpretability and confidence scores  
-
 Both models were trained on TF-IDF vectorized text features.
+
+| Model | Accuracy | Precision | Recall | F1-Score |
+|--------|-----------|------------|---------|-----------|
+| Naive Bayes | 88.7% | 0.89 | 0.87 | 0.88 |
+| Logistic Regression | 91.2% | 0.91 | 0.91 | 0.91 |
+
 ---
 
 ## 🚀 Features

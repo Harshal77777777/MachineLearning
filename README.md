@@ -161,8 +161,8 @@ streamlit run app.py
 ---
 
 ## 👩‍💻 Author
-
-**Your Name**  
 Harshal Meshram
+Sec B
+22070521171
 
 ⭐ *Don’t forget to star this repo if you found it helpful!*

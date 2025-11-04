@@ -6,6 +6,48 @@ A simple **Streamlit** web app that classifies user reviews as **Positive 😊**
 🔗 **Live App:** [Click here to try it out!](https://machinelearning-nmurdphbnqjliz6fk2zvc6.streamlit.app/)
 
 ---
+## 🧩 Title & Short Description
+
+### **Problem Statement**
+In today’s digital world, thousands of product and movie reviews are shared online daily. Manually analyzing them to understand customer sentiment is time-consuming and inefficient.  
+
+This project focuses on building an **automated sentiment analysis model** that classifies reviews as positive or negative based on their textual content.  
+
+### **Why It’s Important**
+Sentiment analysis plays a vital role in:
+- **Understanding customer feedback** for product improvement  
+- **Brand reputation monitoring**  
+- **Market analysis and decision-making**
+
+### **Overview of Results**
+Our trained models — **Naive Bayes** and **Logistic Regression** — achieve high accuracy and produce confidence scores for predictions. The Streamlit app provides a clean and interactive interface where users can input any text and instantly view the sentiment prediction with visualization.
+
+---
+
+## 📊 Dataset Source
+
+The dataset used is based on publicly available **IMDb Movie Reviews Dataset** and similar labeled sentiment datasets.  
+- **Size:** ~50,000 reviews  
+- **Classes:** Positive (1) and Negative (0)
+
+### **Preprocessing Steps**
+- Removed HTML tags and special symbols  
+- Converted all text to lowercase  
+- Removed stopwords  
+- Tokenized and vectorized using **TF-IDF Vectorizer**  
+- Split into training and testing sets (80/20)
+
+---
+
+## ⚙️ Methods
+
+### **Approach**
+We trained two classic supervised models:
+1. **Naive Bayes (MultinomialNB)** — works well for text classification with word frequency data  
+2. **Logistic Regression** — provides better interpretability and confidence scores  
+
+Both models were trained on TF-IDF vectorized text features.
+---
 
 ## 🚀 Features
 

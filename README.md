@@ -1,4 +1,4 @@
-# 💬 Review Sentiment Classifier
+# 💬 Review Sentiment Classifier - Harshal Meshram 22070521171 Sec : B
 
 A simple **Streamlit** web app that classifies user reviews as **Positive 😊** or **Negative ☹️** using pre-trained **Naive Bayes** and **Logistic Regression** models.
 
@@ -10,7 +10,7 @@ A simple **Streamlit** web app that classifies user reviews as **Positive 😊**
 - Enter any review or comment
 - Get **sentiment prediction** with a confidence score
 - View a **pie chart visualization** of model confidence
-- Built with ❤️ using **Streamlit**, **scikit-learn**, and **Joblib**
+- Built using **Streamlit**, **scikit-learn**, and **Joblib**
 
 ---
 

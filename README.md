@@ -54,7 +54,15 @@ Both models were trained on TF-IDF vectorized text features.
 
 ➡️ The **Logistic Regression** model slightly outperformed Naive Bayes in all metrics and is therefore set as the **default model** in the deployed Streamlit app.
 
+## 📈 Model Performance
+
+Here’s a quick overview of how the trained models perform:
+
+
+![Model Performance](img/1.png)
+
 ---
+
 
 ## 🚀 Features
 
